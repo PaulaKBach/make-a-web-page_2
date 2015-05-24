@@ -1,0 +1,75 @@
+body {
+  background-color: #E5E4E2;
+    font-family: sans-serif;
+  font-size: 20px;
+  margin: 1em;
+}
+
+h1{
+  background-color: #E8ADAA;
+  text-align: center;
+   }
+
+.intro {
+width: 100%;
+  height: 145px;
+    }
+
+img{
+  max-width: 100%;
+  max-height: 200px;
+ }
+.photo1 {
+ background-color: #E5E4E2;
+  box-sizing: border-box;
+  width: 10%;
+  height: 145px;
+  float:  left;
+  margin-top: 7px;
+}
+
+.TOC {
+  background-color: #FFDFDD;
+  box-sizing: border-box;
+  float: left;
+  width: 78%;
+  border-style: groove;
+  text-align: center;
+  vertical-align: middle;
+  }
+
+.photo2 {
+ background-color: #E5E4E2;
+  box-sizing: border-box;
+  width: 10%;
+  height: 145px;
+  float:  left;
+  margin-top: 7px;
+}
+
+h2{
+  background-color: #B6B6B4;
+  color: #8C001A;
+  text-align: center;
+}
+
+.Stage0info{
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+.Stage12info{
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+.Stage13info{
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+.endbox {
+width: 100%;
+  height: 45px;
+  background-color: #8C001A;
+    }

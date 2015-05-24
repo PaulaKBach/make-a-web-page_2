@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css"
+    href="notesresubmit.css">
+
+    <title><b>Paula's Intro to Programming Notes</b></title>
+  </head>
+
+  <body>
+
+    <h1> Paula's Introduction to Programming Course Notes</h1>
+    
+      <div class="intro">
+
+        <div class="photo1">
+        <img src="http://i.imgur.com/q5ElFrS.jpg" alt="Eiffel Tower" />
+          </div>
+    
+      <div class="TOC">
+        <a href="#Stage_0">Stage 0:  Introduction/How the Web and HTML Work</a><br><br>
+        <a href="#Stage_1.2">Stage 1.2:  Creating a Structured Document</a><br><br>
+        <a href="#Stage_1.3">Stage 1.3:  Adding CSS Style and HTML Structure</a><br><br></div>
+          
+      <div class="photo2">
+        <img src="http://i.imgur.com/q5ElFrS.jpg" alt="Eiffel Tower" />
+          </div>
+      </div>
+    
+    <div class="Stage0">
+     
+  <a id="Stage_0"><h2>Stage 0: Introduction/How the Web and HTML work</h2></a>
+    
+    <div class="Stage0info">
+    <b>How to Think Like a Programmer</b><br>
+    <p>This Introduction to Programming Nanodegree will help the students learn to think like a programmer by focusing on 5 key areas of thinking.  These areas include:  1)  Procedural Thinking, 2)  Abstract Thinking, 3)  Systematic Debugging, 4)  Technological Thinking, and 5)  Systems Thinking.</p>
+    <b>Basics of the Web</b><br><br>
+    1.  Web:  A collection of html document.  You move between html documents via hyperlinks.<br>
+    2.  html:  "Hypertext Markup Language."  Main type of content on the internet.<br>
+    &nbsp; &nbsp; &nbsp; a.  html text content:  What you see;<br>
+    &nbsp; &nbsp; &nbsp; b.  html markup:  content with the code language;<br>
+    3.  urls:  How you refer to documents on the web.<br>
+    4.  http:  protocol that the web uses.<br>
+    5.  web application<br><br>
+    
+    <b>Components of the Working Web</b><br>
+    <p>Person --  Computer -- Internet --(http protocol) -- Servers</p>
+    
+    <b>HTML Markup</b><br>
+    <p>An HTML Markup consists of tags which are designated by typing them between these symbols the less than and greater than symbols.  Many tags have an opening tag and a closing tag.  The contents of the tag appear between the opening and closing tags.  The opening tag, content and closing tag are known as an "Element."</p>
+    
+    <p>Tags can be inline or block.  An inline tag changes the text on a line of text whereas a block tag usually ends by adding a blank line in the content.</p>
+    
+    <b>Examples of Inline Tags</b><br>
+    1)  bold <br>
+    2)  italics<br>
+    3)  line break  --  NOTE:  This is also a "void" tag.<br>  
+    4)  span<br>
+    5)  img<br>
+    6)  anchors<br><br>
+    
+    <b>Examples of Block Tags</b><br>
+    1)  paragraph<br>
+    2)  div<br><br>
+    
+    <b>It is not necessary to memorize the tags.  Rather, it is important to learn how they operate.  You can always look the tags up using a web search.</b><br>
+    
+  <br>
+      Fin.<br></div>
+    </div>
+        
+   <div class="Stage1">
+    <h2><a id="Stage_1.2">Stage 1.2:  Creating a Structured Document</a></h2>
+
+      <div class="Stage12info">
+
+    <b>Definitions</b><br>
+    1.  HTML:  Hyper Text Markup Language.  The standard markup language used to create web pages.<br>
+    2.  CSS:  Cascading Style Sheets.  Style sheet language used for describing the look and formatting of a document written in a markup language.<br>
+    3.  DOM:  Document Object Model.  A cross platform and language independent convention for representing and interacting with objects in HTML (and other markup languages).  The modes of every document are organized in a tree structure, called the DOM tree.<br>
+    4.  JavaScript:  Interactive language.  <br><br>
+
+    <b>Structure of a Web Page</b><br>
+    <p>HTML langauge is generally used to form the structure of the webpage.  For example, it defines the types headings and body the webpage will include.  CSS controls the style of the page.  That is, what does the page look like.  What is the color of the background?  Size of the font?  The DOM is not a language at all really.  It seems to be a system of organization.  Is it like the card catalog?  The index of a book?  The DOM creates an outline of the webpage.  By clicking on the "sideways triangle" beside each element, you can view increasingly greater detail about each element.</p>
+    
+    <b>Boxes</b><br>
+    <p>Webpages are made up of a series of squares/rectangles.  Although objects like a circle or a triangle may appear on the screen, the shape seen by the viewer is actually created by defining the style of the square or rectange.  When designing a webpage, it makes sense to think of the page as a series of rectangles.</p>
+    
+  <br>
+    Fin.
+    </div>
+    
+    
+     <h2><a id="Stage_1.3">Stage 1.3:  Adding CSS Style and HTML Structure</a></h2>
+
+       <div class="Stage13info">
+    <b>HTML Document Tag Meanings:</b><br>
+    1.  "!DOCTYPE html":  Tells browser the type of document to follow is an html document.<br>
+    2.  "html":  Explains that everything to follow is html.  This tag requires an end tag. <br>
+    3.  "head":  This is where you add a link to the style file.  The link to the style file should read:  "less than sign" link rel="stylesheet" type="text/css" href="style.css" "greater than sign" Must be followed with an end tag.<br>
+    4.  Comments:  To write comments in html "<!-- -->"<br>
+     To write comments in CSS "/*   */"<br>
+    
+    <p>CSS style pages are designed so that the most specific rule is applied to every element.  This is based on the concept of "inheritance."  Inheritance is the mechanism by which properties are applied not only to a specified element, but also to its descendants.  It relies on the document tree in the html document. </p>
+    
+    <p>  Text related properties are inherited and include:<br>
+      &nbsp; &nbsp; &nbsp; color<br>
+      &nbsp; &nbsp; &nbsp; font<br>
+      &nbsp; &nbsp; &nbsp; letter spacing<br>
+      &nbsp; &nbsp; &nbsp; line height<br>
+      &nbsp; &nbsp; &nbsp; list style<br>
+      &nbsp; &nbsp; &nbsp; text align<br>
+      &nbsp; &nbsp; &nbsp; text indent<br>
+      &nbsp; &nbsp; &nbsp; text transform<br>
+      &nbsp; &nbsp; &nbsp; visibility<br>
+      &nbsp; &nbsp; &nbsp; white space<br>
+      &nbsp; &nbsp; &nbsp; word spacing </p>
+    
+    <p> Box related properties are not inherited.  Box related properties include:<br>
+      &nbsp; &nbsp; &nbsp; background<br>
+      &nbsp; &nbsp; &nbsp; border display<br>
+      &nbsp; &nbsp; &nbsp; float & clear<br>
+      &nbsp; &nbsp; &nbsp; height<br>
+      &nbsp; &nbsp; &nbsp; width<br>
+      &nbsp; &nbsp; &nbsp; minimum/maximum margin<br>
+      &nbsp; &nbsp; &nbsp; minimum/maximum height/width<br>
+      &nbsp; &nbsp; &nbsp; outline<br>
+      &nbsp; &nbsp; &nbsp; overflow<br>
+      &nbsp; &nbsp; &nbsp; padding<br>
+      &nbsp; &nbsp; &nbsp; position<br>
+      &nbsp; &nbsp; &nbsp; vertical align </p>
+    
+    <p> CSS Style basics:
+      -- indent each property on its own line
+      -- For styles applicable to all paragraphs:
+          "p{
+      
+      }"
+      -- For classes   
+          ".description{
+            color: red;
+      }
+      
+      -- Declaration:  line of code
+      -- Property:  background-color
+      -- Value:  black </p>
+    
+      
+    <b>3 Ways to Include CSS Styling in a Document</b><br>
+    <p>1.  <b>Write CSS in "less than sign" head "greater than sign of html.</b>  Good for small projects only. </p>
+    <p>2.  <b>Link to a separate CSS file.</b>  Preferred. </p>
+    <p>3.  <b>Write style in-line with html.</b>  Not preferred.  Results in repeat code.  More difficult ot make stylistic changes.  </p>
+    
+    <b>Box Model</b><br>
+    <p>Boxes are made up of 4 parts:  From the center out-- Content, Padding, Border, Margin (transparent).  Some key CSS codes include:  box-sizing:  border box;    For different web browsers use the following -webkit, -moz, -ms.</p>
+    
+    <b>Box Sizing Key Take-Aways</b><br>
+    1.  HTML elements are boxes and each box has 4 components.  <br>
+    2.  Because there are so many components to each box, it can often be hard to get the size of a box just right. <br>
+    3.  Thee are 2 techniques you can use to help deal with any issues.  <br>
+    &nbsp; &nbsp; &nbsp; a.  Set sizes in terms of percentages instead of pixels. <br>
+    &nbsp; &nbsp; &nbsp; b.  Set the box-sizing attribute to border box for every element.  <br><br>
+    
+    <b>Box Positioning</b><br>
+    1.  Divs are block elements (as opposed to inline); so, they default to taking up the entire width of a page. <br>
+    2.  Adding the rule display: flex to the appropriate CSS will override this behavior and let divs appear next to each other.  <br><br>
+    
+    <b>Code, Test, Refine</b><br>
+    1.  Look for natural boxes.<br>
+    2.  Look for repeated styles and elements.<br>
+    3.  Write your html.<br>
+    4.  Apply styles. (From biggest to smallest)<br>
+    5.  Fix things.<br><br>
+    
+         Fin.</div>
+       </div>
+  <div class=endbox>
+  </body>
+  </html>
